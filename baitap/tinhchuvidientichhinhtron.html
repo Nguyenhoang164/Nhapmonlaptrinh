@@ -9,13 +9,15 @@
 <body>
     <script>
         let inputsize;
-        const pi=3.14;
+        
         inputsize = prompt(" bán kính ");
         let size = inputsize;
-        let chuvi = 2*size*pi;
+        let chuvi = 2*size*Math.PI;
+      
         document.write("chu vi hình tròn " + chuvi +" cm");
-        let dientich = size*size*pi;
+        let dientich = size*size*Math.PI;
         document.write("<br/>");
+        
         document.write("chu vi hình tròn " + dientich +" cm2");
 
     </script>
