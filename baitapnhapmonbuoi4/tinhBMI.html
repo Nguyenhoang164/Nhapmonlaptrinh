@@ -8,11 +8,11 @@
 </head>
 <body>
     <script>
-                                                                                                                                                     let Chieucao = parseInt(prompt("nhập chiều cao"))
+       let Chieucao = parseFloat(prompt("nhập chiều cao"))
        console.log(typeof(Chieucao))
-       let Cannang = parseInt(prompt("nhập cân nặng"))
+       let Cannang = parseFloat(prompt("nhập cân nặng"))
        console.log(typeof(Cannang))
-       let BMI = Cannang/(Chieucao^2)
+       let BMI = Cannang/(Chieucao*Chieucao)
     if (BMI>40) {
         alert("béo phì cấp độ III")
         } else if (35<=BMI) {
