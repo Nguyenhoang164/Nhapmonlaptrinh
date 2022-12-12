@@ -1,0 +1,16 @@
+#boder{
+    margin: 100px  ;
+   padding: 200px ;
+   width: 200px ;
+   background-color: white; 
+   border: 45px solid green;
+}
+.text{
+    border-top: 20px;
+   border-bottom: 20px;
+    border-left: 5px ;
+    border-right: 5px;
+    background-color: darkgray;
+    color: green;
+    font-style: oblique;
+}
