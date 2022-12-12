@@ -23,13 +23,15 @@
              let nhapthap = parseInt(prompt("nhập số random thấp nhât"));
              let thapnhat = Math.floor(Math.random()*nhapthap);
              console.log(thapnhat);
+
              let nhapcao1 = parseInt(prompt("nhập số random cao nhât đầu tiên"));
              let nhapcao2 = parseInt(prompt("nhập số random cao nhât đầu tiên"));
              
              let caonhat =  Math.floor(Math.random()*nhapcao2)+nhapcao1 ; 
              console.log(caonhat);
-             let luot = 0;
-             for (; luot < 1; luot++) {
+
+         ;
+             for (let luot = 0; luot < 1; luot++) {
               let dudoan1 = parseInt( prompt("nhập số mà bạn muốn dự đoán khoảng thấp nhất "));
                 let dudoan2 = parseInt( prompt("nhập số mà bạn muốn dự đoán khoảng cao nhất "))
               if (dudoan2==nhapcao1 || dudoan2==nhapcao2 || dudoan1 == nhapthap) {
