@@ -25,35 +25,32 @@
              console.log(thapnhat);
 
              let nhapcao1 = parseInt(prompt("nhập số random cao nhât đầu tiên"));
-             let nhapcao2 = parseInt(prompt("nhập số random cao nhât đầu tiên"));
+             let nhapcao2 = parseInt(prompt("nhập số random cao nhât cuối cùng "));
              
              let caonhat =  Math.floor(Math.random()*nhapcao2)+nhapcao1 ; 
              console.log(caonhat);
-
-         ;
-             for (let luot = 0; luot < 1; luot++) {
-              let dudoan1 = parseInt( prompt("nhập số mà bạn muốn dự đoán khoảng thấp nhất "));
-                let dudoan2 = parseInt( prompt("nhập số mà bạn muốn dự đoán khoảng cao nhất "))
-              if (dudoan2==nhapcao1 || dudoan2==nhapcao2 || dudoan1 == nhapthap) {
+             for (let luot = 0; luot <= 2; luot++) {
+              let dudoan = parseInt( prompt("nhập số mà bạn muốn dự đoán  "));
+               if (dudoan==nhapcao1 || dudoan==nhapcao2 || dudoan == nhapthap) {
                 alert("chọn số ban đầu rồi ");
               }
-                if (dudoan1==thapnhat) {
-              if (dudoan2==caonhat) {
+                if (dudoan==thapnhat) {
+              if (dudoan==caonhat) {
                 alert("chúc mừng bạn đã thắng");
               }
             }
-            if (dudoan1!=thapnhat) {
-              if (dudoan2!=caonhat) {
+            if (dudoan!=thapnhat) {
+              if (dudoan!=caonhat) {
                 alert("mày non");
               }
             }
-            if (dudoan1==thapnhat) {
-              if (dudoan2!=caonhat) {
+            if (dudoan==thapnhat) {
+              if (dudoan!=caonhat) {
                 alert("đúng một số thôi anh bạn ê , chơi lại đê");
               }
                 }
-                if (dudoan1!=thapnhat) {
-              if (dudoan2==caonhat) {
+                if (dudoan!=thapnhat) {
+              if (dudoan==caonhat) {
                 alert("đúng một số thôi anh bạn ê , chơi lại đê");
               }
                 }
