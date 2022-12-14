@@ -1,15 +1,15 @@
 #boder{
     margin: 100px  ;
    padding: 200px ;
-   width: 200px ;
+   width: 300px ;
    background-color: white; 
    border: 45px solid green;
 }
 .text{
-    border-top: 20px;
-   border-bottom: 20px;
-    border-left: 5px ;
-    border-right: 5px;
+    border-top: 200px;
+   border-bottom: 200px;
+    border-left: 50px ;
+    border-right: 50px;
     background-color: darkgray;
     color: green;
     font-style: oblique;
