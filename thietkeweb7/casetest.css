@@ -1,0 +1,28 @@
+.quote{
+    background-color: blue;
+    color: aliceblue;
+    padding: 6px 0;
+    border-radius: 5px;
+}
+.quote:hover{
+    color: aliceblue;
+}
+header{
+    background: url();
+    background-color: blueviolet;
+}
+.left{
+    float: left;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    float: right;
+    padding-bottom: 60px;
+}
+.clear{
+    clear: both;
+}

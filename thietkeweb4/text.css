@@ -23,3 +23,19 @@ section{
 .clearfix{
     clear: both;
 }
+.right1 li{
+    display: flex;
+    display: inline-block;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right2 li{
+    display: flex;
+    display: inline-block;
+    gap: 30px;
+    
+}
